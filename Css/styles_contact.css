@@ -1,0 +1,89 @@
+
+body {
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;    
+}
+
+section.top-page4 {
+    background: url("../Arrière_plan_haut/dots-5719366_1280.jpg");
+    background-size: cover;
+    height: 30vh;
+    padding: 25px;
+}
+
+section.coordonees {
+    margin: 30px 200px 30px 200px ;
+    font-weight: 350;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.coordonees a {
+    color: black;
+}
+
+div.contact {
+    padding-top: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.formulaire {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 350;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #72F2EB;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+fieldset.nom {
+    border: none;
+    display: flex;
+}
+
+fieldset.mail {
+    border: none;
+    display: flex;
+}
+
+fieldset.objet {
+    border: none;
+    display: flex;
+}
+
+fieldset.message {
+    border: none;
+    display: flex;
+}
+
+
+div.bouton {
+    display: flex;
+    justify-content: center;
+}
+
+footer.footer {
+    background: url("../Arrière_plan_haut/dots-5719366_1280.jpg");
+    background-size: cover;
+    height: 80px;
+    padding: 25px;
+}

@@ -1,0 +1,92 @@
+
+body {
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 25px;
+}
+
+section.top-page1 {
+    background: url("../Arrière_plan_haut/pexels-padrinan-255377.jpg");
+    background-size: cover;
+    height: 30vh;
+    padding: 25px;
+}
+
+section.nom {
+    font-size: 70px;
+    text-align: center;
+}
+
+section.citation {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+img {
+    width: 300px;
+}
+
+section.intro {
+    margin: 30px;
+    width: 1300px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.intro2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.texte2 {
+width: 600px;
+height: 450px;
+}
+
+div.image2 {
+    margin-top: 40px;
+}
+
+section.intro3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.texte3 {
+width: 600px;
+height: 250px;
+margin-top: 30px;
+}
+
+section.intro4 {
+    width:1200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 80px;
+}
+
+footer.footer {
+    background: url("../Arrière_plan_haut/pexels-padrinan-255377.jpg");
+    background-size: cover;
+    height: 80px;
+    padding: 25px;
+}

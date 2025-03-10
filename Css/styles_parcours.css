@@ -1,0 +1,73 @@
+
+body {
+    background: #B2FEFA;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #0ED2F7, #B2FEFA); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+}
+
+section.top-page3 {
+    background: url("../Arrière_plan_haut/pexels-dana-tentis-118658-370799.jpg");
+    background-size: cover;
+    height: 30vh;
+    padding: 25px;
+}
+
+section.dev {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 350;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+div.dev {
+    width: 800px;
+}
+
+div.image1 {
+    margin-top: 30px;
+}
+
+
+section.projet {
+      margin: 70px 325px 30px 200px ;
+        font-weight: 350;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content:space-between;
+}
+
+div.text {
+    margin-top: 50px;
+}
+
+section.pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    background-color: white;
+    width: 800px;
+}
+
+div.formation {
+    width: 50px;
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+    
+}
+
+footer.footer {
+    background: url("../Arrière_plan_haut/pexels-dana-tentis-118658-370799.jpg");
+    background-size: cover;
+    height: 80px;
+    padding: 25px;
+}
